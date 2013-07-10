@@ -8,7 +8,7 @@ fs.readFile('index.html', function(err, contents) {
     response.write(contents);
     response.end();
   });
-
+});
 
 
 var port = process.env.PORT || 5000;
